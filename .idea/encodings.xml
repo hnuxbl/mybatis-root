@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-autoconfigure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-autoconfigure/src/site" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-freemarker-legacy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-freemarker-legacy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-freemarker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-freemarker/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-groovy/src/main/groovy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-groovy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-kotlin/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-kotlin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-thymeleaf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-velocity-legacy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-velocity-legacy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-velocity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-velocity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-war/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-war/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-xml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-test-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-test-autoconfigure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-test-autoconfigure/src/site" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring/src/site" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/src/main/java" charset="UTF-8" />
+  </component>
+</project>

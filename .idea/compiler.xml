@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybatis-spring-boot-autoconfigure" />
+        <module name="mybatis-spring-boot-starter" />
+        <module name="mybatis-spring-boot-sample-war" />
+        <module name="mybatis-spring-boot-starter-test" />
+        <module name="mybatis-spring-boot-sample-web" />
+        <module name="mybatis-spring-boot-sample-xml" />
+        <module name="mybatis-spring-boot-sample-annotation" />
+        <module name="mybatis-redis" />
+        <module name="mybatis-spring-boot-sample-thymeleaf" />
+        <module name="mybatis-spring" />
+        <module name="mybatis" />
+        <module name="mybatis-spring-boot-test-autoconfigure" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis" target="1.5" />
+      <module name="mybatis-parent" target="1.8" />
+      <module name="mybatis-redis" target="1.8" />
+      <module name="mybatis-spring" target="1.8" />
+      <module name="mybatis-spring-boot" target="1.8" />
+      <module name="mybatis-spring-boot-autoconfigure" target="1.8" />
+      <module name="mybatis-spring-boot-sample-annotation" target="1.8" />
+      <module name="mybatis-spring-boot-sample-freemarker" target="1.8" />
+      <module name="mybatis-spring-boot-sample-freemarker-legacy" target="1.8" />
+      <module name="mybatis-spring-boot-sample-groovy" target="1.8" />
+      <module name="mybatis-spring-boot-sample-kotlin" target="1.8" />
+      <module name="mybatis-spring-boot-sample-thymeleaf" target="1.8" />
+      <module name="mybatis-spring-boot-sample-velocity" target="1.8" />
+      <module name="mybatis-spring-boot-sample-velocity-legacy" target="1.8" />
+      <module name="mybatis-spring-boot-sample-war" target="1.8" />
+      <module name="mybatis-spring-boot-sample-web" target="1.8" />
+      <module name="mybatis-spring-boot-sample-xml" target="1.8" />
+      <module name="mybatis-spring-boot-samples" target="1.8" />
+      <module name="mybatis-spring-boot-starter" target="1.8" />
+      <module name="mybatis-spring-boot-starter-test" target="1.8" />
+      <module name="mybatis-spring-boot-test-autoconfigure" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
