@@ -6,18 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mybatis-spring-boot-test-autoconfigure" />
         <module name="mybatis" />
-        <module name="mybatis-spring-boot-sample-thymeleaf" />
-        <module name="mybatis-spring-boot-sample-annotation" />
-        <module name="mybatis-spring" />
-        <module name="mybatis-spring-boot-sample-web" />
-        <module name="mybatis-spring-boot-starter-test" />
-        <module name="mybatis-spring-boot-starter" />
-        <module name="mybatis-spring-boot-autoconfigure" />
-        <module name="mybatis-redis" />
-        <module name="mybatis-spring-boot-sample-xml" />
-        <module name="mybatis-spring-boot-sample-war" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">

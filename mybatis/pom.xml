@@ -16,45 +16,37 @@
        limitations under the License.
 
 -->
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.smart.mybatis</groupId>
+    <groupId>org.mybatis</groupId>
     <artifactId>mybatis-parent</artifactId>
-    <version>34-SNAPSHOT</version>
-    <relativePath>../mybatis-parent/pom.xml</relativePath>
+    <version>33</version>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>mybatis</artifactId>
+  <version>3.5.9</version>
   <packaging>jar</packaging>
 
   <name>mybatis</name>
   <description>
-    The MyBatis SQL mapper framework makes it easier to use a relational
-    database with object-oriented
-    applications. MyBatis couples objects with stored procedures or SQL
-    statements using a XML descriptor or
-    annotations. Simplicity is the biggest advantage of the MyBatis data mapper
-    over object relational mapping
+    The MyBatis SQL mapper framework makes it easier to use a relational database with object-oriented
+    applications. MyBatis couples objects with stored procedures or SQL statements using a XML descriptor or
+    annotations. Simplicity is the biggest advantage of the MyBatis data mapper over object relational mapping
     tools.
   </description>
   <url>http://www.mybatis.org/mybatis-3</url>
 
   <inceptionYear>2009</inceptionYear>
 
-
   <properties>
     <clirr.comparisonVersion>3.4.6</clirr.comparisonVersion>
     <excludedGroups>TestcontainersTests</excludedGroups>
-    <maven.compiler.testCompilerArgument>-parameters
-    </maven.compiler.testCompilerArgument>
+    <maven.compiler.testCompilerArgument>-parameters</maven.compiler.testCompilerArgument>
     <module.name>org.mybatis</module.name>
-    <osgi.export>
-      org.apache.ibatis.*;version=${project.version};-noimport:=true
-    </osgi.export>
+    <osgi.export>org.apache.ibatis.*;version=${project.version};-noimport:=true</osgi.export>
     <osgi.import>*;resolution:=optional</osgi.import>
     <osgi.dynamicImport>*</osgi.dynamicImport>
     <spotbugs.onlyAnalyze>org.apache.ibatis.*</spotbugs.onlyAnalyze>
@@ -64,7 +56,7 @@
     <dependency>
       <groupId>ognl</groupId>
       <artifactId>ognl</artifactId>
-      <version>3.3.2</version>
+      <version>3.3.0</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
@@ -78,19 +70,19 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.7.35</version>
+      <version>1.7.32</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>ch.qos.reload4j</groupId>
-      <artifactId>reload4j</artifactId>
-      <version>1.2.18.3</version>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
-      <version>2.17.1</version>
+      <version>2.17.0</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -128,19 +120,19 @@
     <dependency>
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
-      <version>2.1.210</version>
+      <version>2.0.204</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
-      <version>4.3.1</version>
+      <version>4.2.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-junit-jupiter</artifactId>
-      <version>4.3.1</version>
+      <version>4.2.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -159,13 +151,13 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.28</version>
+      <version>8.0.27</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
-      <version>3.22.0</version>
+      <version>3.21.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -177,19 +169,19 @@
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>junit-jupiter</artifactId>
-      <version>1.16.3</version>
+      <version>1.16.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>postgresql</artifactId>
-      <version>1.16.3</version>
+      <version>1.16.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>mysql</artifactId>
-      <version>1.16.3</version>
+      <version>1.16.2</version>
       <scope>test</scope>
     </dependency>
     <!-- For javadoc link -->
@@ -208,7 +200,7 @@
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
-      <version>2.17.1</version>
+      <version>2.17.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -219,8 +211,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <testCompilerArgument>${maven.compiler.testCompilerArgument}
-          </testCompilerArgument>
+          <testCompilerArgument>${maven.compiler.testCompilerArgument}</testCompilerArgument>
         </configuration>
       </plugin>
       <plugin>
@@ -331,7 +322,7 @@
         </property>
       </activation>
       <properties>
-        <excludedGroups/>
+        <excludedGroups />
       </properties>
     </profile>
   </profiles>

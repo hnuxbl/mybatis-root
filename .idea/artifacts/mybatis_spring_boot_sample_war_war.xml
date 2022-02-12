@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="mybatis-spring-boot-sample-war:war">
-    <output-path>$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-war/target</output-path>
+    <output-path>$PROJECT_DIR$/mybatis-spring-boot/mybatis-spring-boot-samples/mybatis-spring-boot-sample-war/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>mybatis-spring-boot-sample-war</module>
