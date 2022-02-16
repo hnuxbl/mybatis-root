@@ -33,13 +33,6 @@
     <name>MyBatis.org</name>
     <url>https://www.mybatis.org/</url>
   </organization>
-  <licenses>
-    <license>
-      <name>The Apache Software License, Version 2.0</name>
-      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
   
   <properties>
     <!--
@@ -140,6 +133,15 @@
     <excludedGroups/>
   </properties>
   
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.22</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
   <build>
     <pluginManagement>
       <plugins>
